@@ -12,5 +12,5 @@ if (n > 99 && n < 1000)
 }
 else
 {
-    Console.WriteLine("Введено не правильное число");
+    Console.WriteLine("Введено не правильная цифра");
 }
