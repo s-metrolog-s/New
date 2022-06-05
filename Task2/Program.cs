@@ -4,10 +4,10 @@
 // a = 9, b = -3 -> да 
 // a = -3 b = 9 -> нет
 
-//Console.WriteLine("Введите первое число:");
-int a = -3;
-//Console.WriteLine("Введите второе число:");
-int b = 9;
+Console.WriteLine("Введите первое число:");
+double a = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите второе число:");
+double b = Convert.ToInt32(Console.ReadLine());
 
 if ( a == b * b)
 {
